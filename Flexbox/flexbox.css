@@ -1,0 +1,194 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+    line-height: 1.65;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1000px;
+
+}
+
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kolom-utama {
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}
+
+
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+.bar {
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bar.satu {
+    background-color: rgb(191, 126, 126);
+}
+
+.bar.dua {
+    background-color: rgb(155, 155, 221);
+}
+
+.bar.tiga {
+    background-color: rgb(82, 197, 91);
+}
+
+/* .container-tiga {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+
+} */
+
+
+
+
+/* 
+This is for the gallery */
+
+
+.gallery-item img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.gallery-container {
+    max-width: 800px;
+    display: flex;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.gallery-item {
+    width: 50%;
+    /* box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    margin: 10px; */
+}
+
+
+.container-empat {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-empat .card {
+    width: 30%;
+    border: 1px solid #7e7b7b;
+    border-radius: 13px;
+    overflow: hidden;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+.card .header {
+    background-color: darkgray;
+    height: 150px;
+}
+
+
+.card .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.card.besar {
+    transform: scale(1.15);
+}
+
+
+
+.container-lima {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+
+}
+
+
+.container-lima .kotak-kecil {
+    width: 150px;
+    height: 150px;
+    background-color: darksalmon;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+
+
+.kotak-kecil span {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 600px) {
+    .container-dua {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .bar {
+        width: 30%;
+    }
+
+    .gallery-item {
+        width: 30%;
+    }
+
+
+}
